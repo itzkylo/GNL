@@ -6,7 +6,7 @@
 /*   By: kjohnsto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/08 12:33:27 by kjohnsto          #+#    #+#             */
-/*   Updated: 2019/07/08 13:11:57 by kjohnsto         ###   ########.fr       */
+/*   Updated: 2019/07/09 10:09:13 by kjohnsto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 # define GET_NEXT_LINE_H
 # include "libft/libft.h"
 
-# define BUFF_SIZE 100
+# define BUFF_SIZE 1
 # define MAX_FD 1024
 
-int				get_next_line(const int fd, char **line);
+int			get_next_line(const int fd, char **line);
 #endif
