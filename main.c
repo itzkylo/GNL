@@ -6,7 +6,7 @@
 /*   By: kjohnsto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/09 09:36:14 by kjohnsto          #+#    #+#             */
-/*   Updated: 2019/07/12 12:15:49 by kjohnsto         ###   ########.fr       */
+/*   Updated: 2019/07/15 09:54:15 by kjohnsto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,12 +35,9 @@ int	main(int argc, char **argv)
 	if (ret == 0)
 	{
 		ft_putnbr(ret);
+		ft_strdel(&buff);
 		ft_putstr(" | EOF");
-		return(0);
 	}
-	while (1)
-	{
-
-	}
-	return(0);
+	sleep(20);
+	return (0);
 }
